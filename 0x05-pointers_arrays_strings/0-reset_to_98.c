@@ -1,15 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
+ * reset_to_98 - resets value to 98
  *
- * Return: Always 0
- */
+ * @n: pointer integer
+ *
 
 int main(void)
 {
 	int n = 98;
-	int* prt = n;
+	int* prt = &n;
 
 	return (0);
 
